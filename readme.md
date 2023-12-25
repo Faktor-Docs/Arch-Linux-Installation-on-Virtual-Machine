@@ -1,6 +1,7 @@
 ##### 1. Create New Virtual Drive and select Arch Linux ISO File
+###### Oracle Virtual Box is used for installation
 ###### Start virtual machine and select Install Arch Linux(Option-1)
-##### 2. Check interner connectivity
+##### 2. Check internet connectivity
 	ping google.com
 ##### 3. Update Keyring
 	pacman -Sy archlinux-keyring
@@ -14,9 +15,9 @@
 ######	- Disc layout: Wipe all select drive
 ######	- Extension: btrfs
 ######	- Set root password
-######	- Create user account and enable it as a sude user
+######	- Create user account and enable it as a sudo user
 ######	- Additional package: git
-######	- Net Config: Use Network manager
+######	- Network Configuration: Use Network manager
 ######	- Set time zone
 ######	- Proceed to installation
 ##### 6. After Installation, Yes to chroot environment
@@ -26,7 +27,7 @@
 	exit
 ##### 9. Shutdown
 	shutdown now
-##### 10. Remove iso and start virtual machine again
+##### 10. Remove iso file and start virtual machine again
 ###### Login with the user creaed in ttyl environment
 #### Install GUI
 ###### Here GNOME Desktop is considered. We can explore other options like Plasma-KDE, Cinnamon etc...
